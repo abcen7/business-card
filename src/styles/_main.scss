@@ -1,0 +1,184 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $bgcColor;
+  color: $fontColor;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.header {
+  @include flex(row, true);
+  margin-top: 15px;
+  justify-content: space-evenly;
+
+  &__title {
+    @include flex(row, true);
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  &__title_icon {
+    width: 24px;
+    margin-right: 5px;
+    transition: 300ms;
+  }
+  
+  &__title:hover &__title_icon {
+    rotate: -30deg;
+  }
+
+  &__link {
+    color: white;
+    @include flex(row, true);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: 300ms;
+  }
+
+  &__link_icon {
+    margin-right: 5px;
+  }
+
+  &__link:hover {
+    border-color: white;
+  }
+
+}
+
+.content {
+  width: 100%;
+  -webkit-margin-start: auto;
+  margin-inline-start: auto;
+  -webkit-margin-end: auto;
+  margin-inline-end: auto;
+  max-width: 60ch;
+  -webkit-padding-start: 1rem;
+  padding-inline-start: 1rem;
+  -webkit-padding-end: 1rem;
+  padding-inline-end: 1rem;
+  margin-top: 30px;
+
+  &__category:not(:first-child) {
+    margin-top: 30px;
+  }
+
+  .heading_title {
+    border-bottom: 5px solid $headingTitleColor;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .heading_subtitle {
+    border-bottom: 2.5px solid $headingTitleColor;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .category_description {
+    margin-top: 10px;
+  }
+
+  .twitter_gif {
+    width: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+  }
+
+  &__block {
+    @include flex(row, true);
+    background-color: $bgcBlockColor;
+    width: inherit;
+    padding: 15px;
+    border-radius: 5px;
+  }
+
+  &__animation {
+    height: 320px!important;
+    display: block!important;
+  }
+
+  .main_biography {
+    @include flex(row, true);
+    justify-content: space-between;
+
+    &__avatar {
+      object-fit: cover;
+      border-radius: 50%;
+      width: 128px;
+      height: 128px;
+      border: white 1px solid;
+      margin-left: 20px;
+      margin-top: 30px;
+    }
+  }
+
+  .list_languages {
+    margin-top: 15px;
+    @include flex(row, true);
+    justify-content: space-between;
+    img {
+      width: 64px;
+    }
+  }
+
+  .list_technologies {
+    margin-top: 15px;
+    @include flex(column, true);
+  }
+
+  .list_technologies div {
+    margin-top: 15px;
+    @include flex(row, true);
+    justify-content: space-evenly;
+    width: 300px;
+  }
+
+  .testimonials {
+    @include flex(column, true);
+    margin-top: 15px;
+
+    .testimonial {
+      @include flex(column, true);
+      background-color: $bgcTestimonial;
+      width: -webkit-fill-available;
+      padding: 30px;
+      border-radius: 15px;
+
+      &__customer {
+        @include flex(row, true);
+        justify-content: space-between!important;
+
+        .customer__description {
+          .description__job {
+            color: $detailedJobTitleColor;
+          }
+        }
+      }
+
+      &__avatar {
+        object-fit: cover;
+        border-radius: 50%;
+        width: 128px;
+        height: 128px;
+        border: white 1px solid;
+        margin-top: 15px;
+        margin-left: 40px;
+      }
+
+      &__description {
+        margin-top: 15px;
+      }
+    }
+
+    .testimonial:not(:first-child) {
+      margin-top: 15px;
+    }
+  }
+}

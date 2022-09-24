@@ -1,0 +1,15 @@
+@mixin flex($flexDirection, $isCenter: false) {
+  display: flex;
+  flex-direction: $flexDirection;
+  @if ($isCenter) {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@mixin menuItem() {
+  background-color: $assetsBackgroundColor;
+  padding: 15px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
