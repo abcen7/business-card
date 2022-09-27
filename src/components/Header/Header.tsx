@@ -12,8 +12,6 @@ const Header = () => {
         />
         Kirill Sermyagin
       </p>
-      <a className="header__link" href="/works">Works</a>
-      <a className="header__link" href="/posts">Posts</a>
       <a className="header__link" href="https://github.com/abcen7">
         <svg className="header__link_icon" stroke="currentColor" fill="currentColor" stroke-width="0"
              viewBox="0 0 512 512" height="1em"

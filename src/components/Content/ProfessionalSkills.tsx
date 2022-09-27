@@ -7,32 +7,37 @@ const ProfessionalSkills = () => {
       <div className="category_description">
         <p>I have knowledge in 4 programming languages: Python, PHP, JavaScript, TypeScript</p>
         <div className="list_languages">
-          <img src={process.env.PUBLIC_URL + "/images/python.png"} alt=""/>
-          <img src={process.env.PUBLIC_URL + "/images/php.png"} alt=""/>
-          <img src={process.env.PUBLIC_URL + "/images/js.png"} alt=""/>
-          <img src={process.env.PUBLIC_URL + "/images/ts.png"} alt=""/>
+          <img src="https://img.shields.io/badge/-Python-black?style=for-the-badge&logo=python" alt=""/>
+          <img src="https://img.shields.io/badge/-PHP-black?style=for-the-badge&logo=php" alt=""/>
+          <img src="https://img.shields.io/badge/-Typescript-black?style=for-the-badge&logo=typescript" alt=""/>
+          <img src="https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logo=javascript" alt=""/>
+          {/*![PHP](https://img.shields.io/badge/-PHP-black?style=for-the-badge&logo=php)*/}
+          {/*![Laravel](https://img.shields.io/badge/-Laravel-black?style=for-the-badge&logo=laravel)*/}
+          {/*![TypeScript](https://img.shields.io/badge/-Typescript-black?style=for-the-badge&logo=typescript)*/}
+          {/*![React.JS](https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react)*/}
+          {/*![MySQL](https://img.shields.io/badge/-MySQL-black?style=for-the-badge&logo=mysql)*/}
+          {/*![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-black?style=for-the-badge&logo=PostgreSQL)*/}
         </div>
         <div className="list_technologies">
           <p className="heading_subtitle">Backend</p>
           <div>
-            <img width="32px" src={process.env.PUBLIC_URL + "/images/flask.png"} alt=""/>
-            <img width="128px" src={process.env.PUBLIC_URL + "/images/fastapi.png"} alt=""/>
-            <img width="96px" src={process.env.PUBLIC_URL + "/images/laravel.png"} alt=""/>
+            <img src="https://img.shields.io/badge/-Flask-black?style=for-the-badge&logo=Flask" alt=""/>
+            <img src="https://img.shields.io/badge/-FastAPI-black?style=for-the-badge&logo=fastapi" alt=""/>
+            <img src="https://img.shields.io/badge/-Laravel-black?style=for-the-badge&logo=laravel" alt=""/>
           </div>
           <p className="heading_subtitle">Frontend</p>
           <div>
-            <img width="96px" src={process.env.PUBLIC_URL + "/images/react.png"} alt=""/>
-            <img width="48px" src={process.env.PUBLIC_URL + "/images/scss.png"} alt=""/>
-            <img width="32px" src={process.env.PUBLIC_URL + "/images/css.png"} alt=""/>
+            <img src="https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react" alt=""/>
+            <img src="https://img.shields.io/badge/-Sass-black?style=for-the-badge&logo=sass" alt=""/>
           </div>
           <p className="heading_subtitle">Databases</p>
           <div>
-            <img width="64px" src={process.env.PUBLIC_URL + "/images/mysql.png"} alt=""/>
-            <img width="32px" src={process.env.PUBLIC_URL + "/images/postgresql.png"} alt=""/>
+            <img src="https://img.shields.io/badge/-MySQL-black?style=for-the-badge&logo=mysql" alt=""/>
+            <img src="https://img.shields.io/badge/-PostgreSQL-black?style=for-the-badge&logo=PostgreSQL" alt=""/>
           </div>
           <p className="heading_subtitle">Other</p>
           <div>
-            <img width="64px" src={process.env.PUBLIC_URL + "/images/git.png"} alt=""/>
+            <img src="https://img.shields.io/badge/-git-black?style=for-the-badge&logo=git" alt=""/>
           </div>
         </div>
       </div>

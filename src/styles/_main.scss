@@ -28,7 +28,7 @@ body {
     margin-right: 5px;
     transition: 300ms;
   }
-  
+
   &__title:hover &__title_icon {
     rotate: -30deg;
   }
@@ -100,8 +100,8 @@ body {
   }
 
   &__animation {
-    height: 320px!important;
-    display: block!important;
+    height: 320px !important;
+    display: block !important;
   }
 
   .main_biography {
@@ -122,10 +122,7 @@ body {
   .list_languages {
     margin-top: 15px;
     @include flex(row, true);
-    justify-content: space-between;
-    img {
-      width: 64px;
-    }
+    justify-content: space-between
   }
 
   .list_technologies {
@@ -136,8 +133,10 @@ body {
   .list_technologies div {
     margin-top: 15px;
     @include flex(row, true);
-    justify-content: space-evenly;
-    width: 300px;
+  }
+
+  .list_technologies div > img:not(:first-child) {
+    margin-left: 5px;
   }
 
   .testimonials {
@@ -153,7 +152,7 @@ body {
 
       &__customer {
         @include flex(row, true);
-        justify-content: space-between!important;
+        justify-content: space-between !important;
 
         .customer__description {
           .description__job {
@@ -180,5 +179,78 @@ body {
     .testimonial:not(:first-child) {
       margin-top: 15px;
     }
+  }
+
+  .slider {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    width: 90%;
+  }
+  .slider {
+    width: 400px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content {
+    width: 85%;
+
+    .list_languages {
+      display: block;
+    }
+  }
+
+  .slider {
+    width: 350px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .content {
+    width: 80%;
+
+    .list_languages {
+      display: block;
+    }
+  }
+
+  .slider {
+    width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .content {
+    width: 75%;
+
+    .list_languages {
+      @include flex(column, true);
+    }
+
+    .list_technologies > div {
+      @include flex(column, true);
+    }
+
+    .main_biography {
+      &__avatar {
+        width: 64px;
+        height: 64px;
+      }
+    }
+
+    .testimonial {
+      &__avatar {
+        width: 64px!important;
+        height: 64px!important;
+      }
+    }
+  }
+
+  .slider {
+    width: 250px !important;
   }
 }

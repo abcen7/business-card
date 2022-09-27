@@ -13,7 +13,7 @@ interface ITestimonialProps {
 
 const Testimonial: React.FC<ITestimonialProps> = (props: ITestimonialProps) => {
   return (
-    <div className="testimonial">
+    <div className="testimonial item">
       <div className="testimonial__customer">
         <div className="customer__description">
           <h3 className="description__name">{props.customer.customerName}</h3>

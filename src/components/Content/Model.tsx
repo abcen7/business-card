@@ -2,7 +2,7 @@ import React from 'react';
 import {useLoader, useThree} from "@react-three/fiber";
 import {GLTFLoader} from "three/examples/jsm/loaders/GLTFLoader";
 import {OrbitControls} from "@react-three/drei";
-import animation, {ICameraSettings} from "./Animation";
+import {ICameraSettings} from "./Animation";
 
 interface IModelProps {
   cameraSettings: ICameraSettings
@@ -10,7 +10,6 @@ interface IModelProps {
 
 const Model = (props: IModelProps): React.ReactElement<IModelProps> => {
 
-  // const deg2rad = (degrees: number) => degrees * (Math.PI / 180)
   const easeOutCircle = (x: number) => Math.sqrt(1 - Math.pow(x - 1, 4))
 
   const urlModelPath = process.env.PUBLIC_URL + "/models/cat.gltf"
@@ -20,9 +19,8 @@ const Model = (props: IModelProps): React.ReactElement<IModelProps> => {
 
   useThree(({camera}) => {
     let frame = 0
-    let req = null
     const animationRotateTarget = () => {
-      req = requestAnimationFrame(animationRotateTarget)
+      requestAnimationFrame(animationRotateTarget)
       frame = frame <= 100 ? frame + 1 : frame
       if (frame <= 100) {
         const rotationSpeed = -easeOutCircle(frame / 120) * Math.PI * 20
