@@ -91,6 +91,12 @@ body {
     border-radius: 50%;
   }
 
+  .telegram_gif {
+    width: 32px;
+    border-radius: 50%;
+    margin-left: 5px;
+  }
+
   &__block {
     @include flex(row, true);
     background-color: $bgcBlockColor;
@@ -183,6 +189,13 @@ body {
 
   .slider {
     width: 500px;
+  }
+
+  .contact_telegram {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
   }
 }
 

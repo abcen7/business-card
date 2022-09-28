@@ -6,6 +6,7 @@ import ProfessionalSkills from "./ProfessionalSkills";
 import PersonalSkills from "./PersonalSkills";
 import Biography from "./Biography";
 import Testimonials from "./Testimonials";
+import ContactWithMe from "./ContactWithMe";
 
 const Content = () => {
   return (
@@ -17,6 +18,7 @@ const Content = () => {
       <ProfessionalSkills />
       <PersonalSkills />
       <Testimonials />
+      <ContactWithMe />
     </div>
   );
 };

@@ -34,6 +34,26 @@ const Testimonials: React.FC = () => {
           />
           <Testimonial
             customer={{
+              customerName: "Andrew Ananiev",
+              customerJob: "CEO of LLC Civilist",
+              customerAvatarPath: "/images/andrew_gennadievich.jpg"
+            }}
+            testimonial={{
+              description: '"Our work with Kirill is productive. In a short time, he created a project from scratch according to a given technical task and still supports it"'
+            }}
+          />
+          <Testimonial
+            customer={{
+              customerName: "Rodion Vikol",
+              customerJob: "CEO of Bivreost",
+              customerAvatarPath: "/images/rodion_sergeevich.jpg"
+            }}
+            testimonial={{
+              description: '"Most people just talk about it when they have a problem, but Kirill is not like that. I like that along with the occurrence of a problem, he suggests a way to solve it. I think this is one of the important skills"'
+            }}
+          />
+          <Testimonial
+            customer={{
               customerName: "Daniel Wilson",
               customerJob: "Chief designer of Bivreost",
               customerAvatarPath: "/images/daniel_wilson.png"
