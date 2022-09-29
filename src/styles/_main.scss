@@ -49,6 +49,35 @@ body {
     border-color: white;
   }
 
+  &__dropdown {
+
+    .dropdown__russian, .dropdown__english {
+      outline: none;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      img {
+        width: 32px;
+      }
+    }
+
+    .dropdown__trigger {
+      cursor: pointer;
+      transition: 300ms;
+    }
+
+    .dropdown__trigger:hover, .dropdown__trigger:after {
+      transform: rotate(180deg);
+    }
+
+    .dropdown__content {
+      @include flex(column, true);
+      padding: 15px;
+      position: absolute;
+      background-color: $bgcDropdown;
+    }
+  }
+
 }
 
 .content {
@@ -257,8 +286,8 @@ body {
 
     .testimonial {
       &__avatar {
-        width: 64px!important;
-        height: 64px!important;
+        width: 64px !important;
+        height: 64px !important;
       }
     }
   }

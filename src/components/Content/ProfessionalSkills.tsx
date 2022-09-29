@@ -11,12 +11,6 @@ const ProfessionalSkills = () => {
           <img src="https://img.shields.io/badge/-PHP-black?style=for-the-badge&logo=php" alt=""/>
           <img src="https://img.shields.io/badge/-Typescript-black?style=for-the-badge&logo=typescript" alt=""/>
           <img src="https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logo=javascript" alt=""/>
-          {/*![PHP](https://img.shields.io/badge/-PHP-black?style=for-the-badge&logo=php)*/}
-          {/*![Laravel](https://img.shields.io/badge/-Laravel-black?style=for-the-badge&logo=laravel)*/}
-          {/*![TypeScript](https://img.shields.io/badge/-Typescript-black?style=for-the-badge&logo=typescript)*/}
-          {/*![React.JS](https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react)*/}
-          {/*![MySQL](https://img.shields.io/badge/-MySQL-black?style=for-the-badge&logo=mysql)*/}
-          {/*![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-black?style=for-the-badge&logo=PostgreSQL)*/}
         </div>
         <div className="list_technologies">
           <p className="heading_subtitle">Backend</p>
