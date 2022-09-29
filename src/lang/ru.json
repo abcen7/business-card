@@ -1,0 +1,60 @@
+{
+  "header": {
+    "title": "Кирилл Сермягин",
+    "github": "Источник"
+  },
+  "aboutMe": {
+    "title": "Обо мне",
+    "description": "Я Fullstack Web Developer из Рязани, Россия. \n У меня 3 года профессионального опыта разработки сайтов.\n Я приобрел навыки, необходимые для создания продвинутых и премиальных приложений."
+  },
+  "biography": {
+    "block": "Привет! Я Fullstack Web Developer из России!",
+    "title": "Кирилл Сермягин"
+  },
+  "contactWithMe": {
+    "title": "Свяжитесь со мной!",
+    "description": "Если вы хотите работать со мной, напишите мне в telegram!"
+  },
+  "personalSkills": {
+    "title": "Мои персональные качества",
+    "description": {
+      "communication": "Коммуникабельность",
+      "communicationDescription": "Всегда найду общий язык с любым человеком",
+      "teamWork": "Командная работа.",
+      "teamWorkDescription": "Я отлично работаю в команде, также у меня есть лидерские качества для управления ею",
+      "speed": "Скорость",
+      "speedDescription": "Я всегда все делаю точно в срок."
+    }
+  },
+  "professionalSkills": {
+    "title": "Мой стек",
+    "description": "Я владею 4 языками программирования: Python, PHP, JavaScript, TypeScript",
+    "phrases": {
+      "backend": "Логика приложения",
+      "frontend": "Внешний вид приложения",
+      "databases": "Базы данных",
+      "other": "Остальное"
+    }
+  },
+  "resume": {
+    "title": "Моё резюме",
+    "phrases": {
+      "schoolOfYoungManager": "Школа Юного Менеджера",
+      "yandexLyceum": "Яндекс.Лицей",
+      "civilist": "ООО \"Цивилист\"",
+      "asA": "должность: ",
+      "technicalDirector": "технический директор",
+      "phpDeveloper": "php разработчик",
+      "pythonDeveloper": "python разработчик",
+      "to present": "по настоящее время"
+    }
+  },
+  "testimonials": {
+    "rodionVikol": "Родион Виколь",
+    "ceoOfBivreost": "Генеральный директор \"Bivreost\"",
+    "rodionVikolTestimonial": "Большинство людей просто говорят о проблеме, но Кирилл не такой. Мне нравится, что при возникновении проблемы он сразу же предлагает способ ее решения. Я считаю, что это один из важных навыков.",
+    "andrewAnaniev": "Андрей Ананьев",
+    "ceoOfCivilist": "Генеральный директор ООО\"Цивилист\"",
+    "andrewAnanievTestimonial": "Наша работа с Кириллом продуктивна. В короткие сроки он создал проект с нуля по заданному техническому заданию и до сих пор его поддерживает"
+  }
+}
