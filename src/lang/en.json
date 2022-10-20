@@ -1,0 +1,63 @@
+{
+  "header": {
+    "title": "Jesper Nielsen",
+    "github": "Source"
+  },
+  "aboutMe": {
+    "title": "About me",
+    "description": "I'm a Fullstack Web Developer based in Ryazan, Russia. \n I have 3 years of professional website development experience. \n I have acquired the skills necessary to build great and premium applications."
+  },
+  "biography": {
+    "block": "Hello, I am fullstack web developer based in Russia!",
+    "title": "Jesper Nielsen",
+    "subtitle": "Fullstack Web Developer"
+  },
+  "contactWithMe": {
+    "title": "Contact with me",
+    "description": "If You want to work with me You can message to me on telegram!"
+  },
+  "personalSkills": {
+    "title": "My personal skills",
+    "description": "<li><b>Communication.</b> I will always find a common language with any person</li><li><b>Teamwork.</b> I work well in a team, I also have leadership skills</li><li><b>Speed.</b> I always complete everything exactly on time.</li>"
+  },
+  "professionalSkills": {
+    "title": "My stack",
+    "description": "I have knowledge in 4 programming languages: Python, PHP, JavaScript, TypeScript",
+    "phrases": {
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "databases": "Databases",
+      "other": "Other"
+    }
+  },
+  "resume": {
+    "title": "Resume",
+    "phrases": {
+      "schoolOfYoungManager": "«School Of Young Manager» [2019 - 2020] Studied as a php developer",
+      "yandexLyceum": "«Yandex.Lyceum» [2020 - 2022] Studied as a python developer",
+      "civilist": "«LLC Civilist» [2022 - to present] as a ",
+      "civilistJob": "fullstack web developer",
+      "bivreost": "«Bivreost»",
+      "bivreostJobTime": "[2022 - to present] as a ",
+      "bivreostJob": "technical director"
+    }
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "rodionVikol": "Rodion Vikol",
+    "ceoOfBivreost": "CEO of «Bivreost»",
+    "rodionVikolTestimonial": "Most people just talk about it when they have a problem, but Kirill is not like that. I like that along with the occurrence of a problem, he suggests a way to solve it. I think this is one of the important skills",
+    "andrewAnaniev": "Andrew Ananiev",
+    "ceoOfCivilist": "CEO of LLC Civilist",
+    "andrewAnanievTestimonial": "Our work with Kirill is productive. In a short time, he created a project from scratch according to a given technical task and still supports it",
+    "danielWilson": "Daniel Wilson",
+    "chiefDesignerOfBivreost": "Designer of «Bivreost»",
+    "danielWilsonTestimonial": "Kirill is very pleasant to work with, he works great in a team, it is very easy to interact with him",
+    "andrewBlight": "Andrew Blight",
+    "backendDeveloper": "Backend developer of «Bivreost»",
+    "andrewBlightTestimonial": "Kirill is a competent developer, he has high leadership skills, and he also manages the team perfectly"
+  },
+  "contact": {
+    "title": "If you want to work with me, you can write to me on telegram"
+  }
+}

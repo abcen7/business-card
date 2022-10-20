@@ -1,13 +1,14 @@
 import React from 'react';
+import { translate } from '../../utils';
 
 const ContactWithMe: React.FC = () => {
   return (
     <>
       <div className="content__category">
-        <span className="heading_title">Contact with me</span>
+        <span className="heading_title">{translate().contactWithMe.title}</span>
         <div className="category_description">
           <div className="contact_telegram">
-            <p>If You want to work with me You can message to me on telegram</p>
+              <p>{translate().contactWithMe.description}</p>
             <a href="https://t.me/abcen7">
               <img
                 className="telegram_gif"

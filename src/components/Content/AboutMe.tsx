@@ -1,16 +1,16 @@
 import React from 'react';
+import {translate} from "../../utils";
 
 const AboutMe = () => {
-  return (
-    <div className="content__category">
-      <span className="heading_title">About me</span>
-      <p className="category_description">
-        I'm a Fullstack Web Developer based in Ryazan, Russia.
-        I have 3 years of professional website development experience.
-        I have acquired the skills necessary to build great and premium applications.
-      </p>
-    </div>
-  );
+
+    return (
+        <div className="content__category">
+            <span className="heading_title">{ translate().aboutMe.title }</span>
+            <p className="category_description">
+                { translate().aboutMe.description }
+            </p>
+        </div>
+    );
 };
 
 export default AboutMe;

@@ -9,18 +9,18 @@ import Testimonials from "./Testimonials";
 import ContactWithMe from "./ContactWithMe";
 
 const Content = () => {
-  return (
-    <div className="content">
-      <Animation />
-      <Biography />
-      <AboutMe />
-      <Resume />
-      <ProfessionalSkills />
-      <PersonalSkills />
-      <Testimonials />
-      <ContactWithMe />
-    </div>
-  );
+    return (
+        <div className="content">
+            <Animation/>
+            <Biography/>
+            <AboutMe/>
+            <Resume/>
+            <ProfessionalSkills/>
+            <PersonalSkills/>
+            <Testimonials/>
+            <ContactWithMe/>
+        </div>
+    );
 };
 
 export default Content;
