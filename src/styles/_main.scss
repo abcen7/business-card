@@ -56,7 +56,8 @@ body {
       border: none;
       background-color: transparent;
       cursor: pointer;
-      img {
+
+      .flash_english, .flash_russian, img {
         width: 32px;
       }
     }
@@ -67,7 +68,7 @@ body {
     }
 
     .dropdown__trigger:hover, .dropdown__trigger:after {
-      transform: rotate(180deg);
+      transform: scale(0.9);
     }
 
     .dropdown__content {
@@ -187,7 +188,6 @@ body {
 
       &__customer {
         @include flex(row, true);
-        justify-content: space-between !important;
 
         .customer__description {
           .description__job {
@@ -203,7 +203,7 @@ body {
         height: 128px;
         border: white 1px solid;
         margin-top: 15px;
-        margin-left: 40px;
+        margin-left: 5%;
       }
 
       &__description {
